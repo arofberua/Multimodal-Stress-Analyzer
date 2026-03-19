@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# MediaPipe model (large binary — download via README instructions)
+*.task
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs (generated at runtime)
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# Test files
+_test_*.py
+
+# Windows device files
+nul
